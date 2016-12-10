@@ -1,0 +1,4 @@
+## 更新ubuntu的源，源为阿里源，也可以替换为163源，把aliyun改为163即可
+FROM ubuntu:14.04
+MAINTAINER wyb
+RUN echo 'deb http://mirrors.aliyun.com/ubuntu/ trusty main restricted universe multiverse \n deb-src http://mirrors.aliyun.com/ubuntu/ trusty main restricted universe multiverse ' | sudo tee /etc/apt/sources.list && apt-get update
