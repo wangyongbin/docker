@@ -1,13 +1,17 @@
 ##ubuntu16.04 docker 启动错误 systemctl status docker.service
 ##DOCKER_OPTS 不起作用
-#edit sudo vim /lib/systemd/system/docker.service
+#修改： sudo vim /lib/systemd/system/docker.service
 
-#add
   EnvironmentFile=/etc/default/docker
   ExecStart=/usr/bin/docker daemon -H fd:// $DOCKER_OPTS
 or
   EnvironmentFile=/etc/docker/daemon.json
   ExecStart=/usr/bin/dockerd
+  
+#重启
+systemctl daemon-reload
+sudo service docker restart
+
 
 example:
 /etc/docker/daemon.json
