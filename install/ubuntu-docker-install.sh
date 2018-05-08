@@ -1,3 +1,5 @@
+#!/bin/bash
+# Support ubuntu 14.04 - 16.04 
 sudo apt-get install \
     apt-transport-https \
     ca-certificates \
