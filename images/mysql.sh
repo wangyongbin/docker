@@ -1,7 +1,7 @@
 docker volume create vol_mysql
 
-docker run -d --restart=always /
---name dev-mysql / 
--e MYSQL_ROOT_PASSWORD=123456 /
--v vol_mysql:/var/lib/mysql /
+docker run -d --restart=always \
+--name dev-mysql \
+-e MYSQL_ROOT_PASSWORD=123456 \
+-v vol_mysql:/var/lib/mysql \
 mysql:5.6
