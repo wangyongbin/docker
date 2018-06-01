@@ -1,8 +1,10 @@
+#!/bin/bash
+
 ###https://leo108.com/pid-2109/
 
 # delete container
 
-funcation del(){
+function del(){
     docker rm -fv $1;
 }
 
