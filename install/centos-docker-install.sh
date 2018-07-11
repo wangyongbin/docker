@@ -4,7 +4,8 @@
 sudo yum install -y yum-utils device-mapper-persistent-data lvm2
 
 # 设置docker源
-sudo yum-config-manager --add-repo http://download.docker.com/linux/centos/docker-ce.repo
+#sudo yum-config-manager --add-repo http://download.docker.com/linux/centos/docker-ce.repo
+sudo yum-config-manager --add-repo http://mirrors.aliyun.com/docker-ce/linux/centos/docker-ce.repo
 
 # 更新源
 sudo yum makecache fast
