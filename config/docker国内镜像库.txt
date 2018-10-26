@@ -9,14 +9,5 @@ https://mirror.tuna.tsinghua.edu.cn/
 阿里云
 http://mirrors.aliyun.com/
 
-
-Docker学习笔记 — 配置国内免费registry mirror
-http://blog.csdn.net/wangtaoking1/article/details/49126621
-
-
-在阿里云容器服务上创建一个使用Redis的Python应用
-https://yq.aliyun.com/articles/2914
-
-ubuntu 
-sudo vim /etc/default/docker
-  DOCKER_OPTS="--registry-mirror=http://a1e80ea2.m.daocloud.io"
+我的aliyun镜像加速器
+registry-mirrors=https://hzvanbc9.mirror.aliyuncs.com
