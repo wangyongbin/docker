@@ -1,0 +1,9 @@
+registry.ib2000.net:172.16.0.21
+images.ib2000.net:172.16.0.21
+redis.ib2000.net:172.16.0.89
+db.ib2000.net:172.16.0.92
+mycat.ib2000.net:172.16.0.92
+mq.ib2000.net:172.16.0.97
+nfs.ib2000.net:172.16.0.79
+dev.ib2000.net:172.16.0.51
+www.ib2000.net:172.16.0.21

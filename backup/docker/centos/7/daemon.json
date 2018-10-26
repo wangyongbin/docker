@@ -1,0 +1,7 @@
+{
+  "debug":true,
+  "registry-mirrors": ["https://registry.docker-cn.com"],
+  "storage-driver":"overlay2",
+  "data-root":"/var/lib/docker",
+  "insecure-registries":[ "http://registry.ib2000.net:50001"]
+}

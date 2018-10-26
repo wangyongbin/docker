@@ -1,0 +1,6 @@
+{
+  "storage-driver": "overlay2",
+  "hosts": ["fd://","tcp://0.0.0.0:2375"],
+  "insecure-registries":[ "http://registry.ib2000.net:50001"],
+  "registry-mirrors": ["https://registry.docker-cn.com"]
+}
